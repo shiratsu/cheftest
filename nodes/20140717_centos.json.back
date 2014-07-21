@@ -1,0 +1,8 @@
+{
+  "run_list": [
+	"recipe[nginx,create_users,iptables]"	
+  ],
+  "automatic": {
+    "ipaddress": "20140717_centos"
+  }
+}

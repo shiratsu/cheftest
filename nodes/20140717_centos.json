@@ -1,0 +1,6 @@
+{
+  "run_list": ["create_user", "nginx", "iptables"],
+  "automatic": {
+    "ipaddress": "20140717_centos"
+  }
+}
